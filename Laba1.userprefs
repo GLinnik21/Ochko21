@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{859C49D7-AB82-4701-95DC-A568175AF1CE}|Default">
+  <MonoDevelop.Ide.ItemProperties.Laba1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Laba1/Program.cs">
+    <Files>
+      <File FileName="Laba1/Program.cs" Line="3" Column="16" />
+      <File FileName="Laba1/Game.cs" Line="76" Column="9" />
+      <File FileName="Laba1/Deck.cs" Line="11" Column="29" />
+      <File FileName="Laba1/Card.cs" Line="8" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
