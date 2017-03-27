@@ -3,27 +3,7 @@ namespace Laba1
 {
 	public class Card
 	{
-		public enum CardSuits { CardSuitPeak, CardSuitCross, CardSuitTambourine, CardSuitHeart }
-
-		public Card(int rank, int suit)
-		{
-			this.rank = rank;
-			switch (suit) {
-				case (int)CardSuits.CardSuitCross:
-					this.suit = '♣';
-					break;
-				case (int)CardSuits.CardSuitPeak:
-					this.suit = '♠';
-					break;
-				case (int)CardSuits.CardSuitHeart:
-					this.suit = '♥';
-					break;
-				case (int)CardSuits.CardSuitTambourine:
-					this.suit = '♦';
-					break;
-
-			}
-		}
+		public enum CardSuits : int { CardSuitPeak, CardSuitCross, CardSuitTambourine, CardSuitHeart }
 
 		public Card(int rank, CardSuits suit)
 		{

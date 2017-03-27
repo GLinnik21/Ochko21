@@ -13,7 +13,7 @@ namespace Laba1
 				_deck = new List<Card>();
 				for (int i = 0; i < 4; i++) {
 					for (int j = 1; j <= 13; j++) {
-						_deck.Add(new Card(j, i));
+						_deck.Add(new Card(j, (Card.CardSuits)i));
 					}
 				}
 			}
